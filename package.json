@@ -1,27 +1,12 @@
 {
-    "name": "backend",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "start": "babel-node server.js",
-        "dev": "babel-node server.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@apollo/server": "^4.9.5",
-        "apollo-server": "^3.13.0",
-        "graphql": "^16.6.0",
-        "node-fetch": "^3.3.2"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.22.15",
-        "@babel/core": "^7.22.20",
-        "@babel/node": "^7.22.19",
-        "@babel/preset-env": "^7.22.20",
-        "@graphql-tools/mock": "^9.0.0",
-        "@graphql-tools/schema": "^10.0.0"
-    }
+  "name": "gql-api-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
