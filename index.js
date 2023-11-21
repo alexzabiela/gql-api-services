@@ -3,8 +3,7 @@ import { ApolloServerPluginDrainHttpServer } from "apollo-server-core";
 import http from "http";
 import express from "express";
 import cors from "cors";
-
-const data = require('./data.json'); // assuming your JSON file is data.json
+import './data.json' assert { type: "json" };
 
 const app = express();
 app.use(cors());
